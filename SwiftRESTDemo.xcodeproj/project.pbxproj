@@ -13,6 +13,9 @@
 		318D8F1323D844610035DC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318D8F1123D844610035DC4E /* Main.storyboard */; };
 		318D8F1523D844630035DC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318D8F1423D844630035DC4E /* Assets.xcassets */; };
 		318D8F1823D844630035DC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318D8F1623D844630035DC4E /* LaunchScreen.storyboard */; };
+		318D8F2023D852EC0035DC4E /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F1F23D852EC0035DC4E /* DAO.swift */; };
+		318D8F2223D853A80035DC4E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F2123D853A80035DC4E /* Post.swift */; };
+		318D8F2423D85E8E0035DC4E /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F2323D85E8E0035DC4E /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		318D8F1423D844630035DC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318D8F1723D844630035DC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		318D8F1923D844630035DC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318D8F1F23D852EC0035DC4E /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		318D8F2123D853A80035DC4E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		318D8F2323D85E8E0035DC4E /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				318D8F1423D844630035DC4E /* Assets.xcassets */,
 				318D8F1623D844630035DC4E /* LaunchScreen.storyboard */,
 				318D8F1923D844630035DC4E /* Info.plist */,
+				318D8F1F23D852EC0035DC4E /* DAO.swift */,
+				318D8F2123D853A80035DC4E /* Post.swift */,
+				318D8F2323D85E8E0035DC4E /* PostCollectionViewCell.swift */,
 			);
 			path = SwiftRESTDemo;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318D8F2023D852EC0035DC4E /* DAO.swift in Sources */,
 				318D8F1023D844610035DC4E /* ViewController.swift in Sources */,
+				318D8F2423D85E8E0035DC4E /* PostCollectionViewCell.swift in Sources */,
 				318D8F0C23D844610035DC4E /* AppDelegate.swift in Sources */,
 				318D8F0E23D844610035DC4E /* SceneDelegate.swift in Sources */,
+				318D8F2223D853A80035DC4E /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
