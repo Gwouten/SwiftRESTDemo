@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var collectionView: UICollectionView!
     var items = [Post]()
 
     override func viewDidLoad() {
@@ -33,6 +34,21 @@ extension ViewController:UICollectionViewDataSource {
         
         return cell
         
+    }
+    
+}
+
+extension ViewController:UICollectionViewDelegate{
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "postDetailSegue" {
+                       
+            let cell:UICollectionViewCell = sender as! UICollectionViewCell
+            let index = collectionView.indexPath(for: cell)!
+            let post:Post = items[index.item]
+            let destination = segue.destination as! PostDetailViewController
+            destination.postToDisplay = post
+        }
     }
     
 }

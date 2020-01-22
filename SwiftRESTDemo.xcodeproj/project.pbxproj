@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3133818123D87E6000AEABED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3133818023D87E6000AEABED /* User.swift */; };
+		3133818523D8890E00AEABED /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3133818423D8890E00AEABED /* PostDetailViewController.swift */; };
 		318D8F0C23D844610035DC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F0B23D844610035DC4E /* AppDelegate.swift */; };
 		318D8F0E23D844610035DC4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F0D23D844610035DC4E /* SceneDelegate.swift */; };
 		318D8F1023D844610035DC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D8F0F23D844610035DC4E /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3133818023D87E6000AEABED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3133818423D8890E00AEABED /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		318D8F0823D844610035DC4E /* SwiftRESTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRESTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318D8F0B23D844610035DC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		318D8F0D23D844610035DC4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				318D8F1F23D852EC0035DC4E /* DAO.swift */,
 				318D8F2123D853A80035DC4E /* Post.swift */,
 				318D8F2323D85E8E0035DC4E /* PostCollectionViewCell.swift */,
+				3133818023D87E6000AEABED /* User.swift */,
+				3133818423D8890E00AEABED /* PostDetailViewController.swift */,
 			);
 			path = SwiftRESTDemo;
 			sourceTree = "<group>";
@@ -148,11 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				318D8F2023D852EC0035DC4E /* DAO.swift in Sources */,
+				3133818523D8890E00AEABED /* PostDetailViewController.swift in Sources */,
 				318D8F1023D844610035DC4E /* ViewController.swift in Sources */,
 				318D8F2423D85E8E0035DC4E /* PostCollectionViewCell.swift in Sources */,
 				318D8F0C23D844610035DC4E /* AppDelegate.swift in Sources */,
 				318D8F0E23D844610035DC4E /* SceneDelegate.swift in Sources */,
 				318D8F2223D853A80035DC4E /* Post.swift in Sources */,
+				3133818123D87E6000AEABED /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

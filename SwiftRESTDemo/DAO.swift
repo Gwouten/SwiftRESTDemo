@@ -39,4 +39,19 @@ class DAO {
         return posts
     }
     
+    func getUser(userId:Int) -> String{
+        print(userId)
+        let url = URL.init(string: "https://jsonplaceholder.typicode.com/users/\(userId)")
+        var name:String = "Not found"
+        do {
+            let rawData = try Data.init(contentsOf: url!)
+            let jsonData = try JSONSerialization.jsonObject(with: rawData) as! NSObject
+            name = jsonData.value(forKey: "username") as! String
+        } catch {
+            print("Niemand gevonden")
+        }
+        return name
+        
+    }
+    
 }
